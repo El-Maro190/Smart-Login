@@ -1,0 +1,46 @@
+body {
+  background-color: #24353f;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#home {
+  height: 75vh;
+}
+
+.btn-outline-warning {
+  border: 1px solid #ffc107;
+}
+
+.block {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.block h1 {
+  color: #17a2b8;
+  font-size: 2.5rem;
+}
+
+.block .form-control {
+  background-color: transparent !important;
+  color: white !important;
+}
+
+.block .form-control:focus {
+  box-shadow: none !important;
+}
+
+.block .form-control::placeholder {
+  color: #ced4da;
+}
+
+.block button:hover {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
